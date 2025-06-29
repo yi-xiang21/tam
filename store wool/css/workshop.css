@@ -1,0 +1,109 @@
+/* Hero Section */
+.hero-section {
+  width: 100%;
+  background-image: url(..//img/banner-workshop.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 16px 80px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.hero-title {
+  font-size: 70px;
+  font-weight: bold;
+  color: #60275c; /* Đổi thành màu bạn muốn */
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.hero-desc {
+  font-size: 20px;
+  color: #000000; /* xám nhạt */
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 2.5rem;
+}
+
+.hero-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.hero-btn {
+  padding: 0.75rem 2rem;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.hero-btn-primary {
+  color: #2c030c;
+   border: 1px solid #000000;
+}
+
+.hero-btn-primary:hover {
+ background:rgba(127, 2, 65, 0.977);
+  border: none;
+  color: #fff;
+}
+
+.hero-btn-outline {
+  color: #2c030c;
+   border: 1px solid #000000;
+}
+
+.hero-btn-outline:hover {
+  background:rgba(127, 2, 65, 0.977);
+  border: none;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+    .hero-section {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100vw;
+    height: 180px;
+    margin: 0;
+    padding: 0;
+    }
+  .hero-title {
+    font-size: 15px;
+    margin: 0;
+    padding-top: 10px;
+  }
+  .hero-desc {
+    font-size: 13px;
+    margin: 10px;
+  }
+  .hero-btn {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+}
